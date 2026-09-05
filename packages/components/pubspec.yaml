@@ -1,0 +1,18 @@
+name: components
+description: Design system. Theme and shared widgets.
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # No core here. The design system renders what it is given;
+  # it never reaches into the data layer.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
