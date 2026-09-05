@@ -1,0 +1,8 @@
+{
+  "items": [
+    { "type": "loose", "sku": "L-3320", "name": "Safety gloves, L", "bin": "S-02-3", "quantity": 120 },
+    { "type": "pallet", "sku": "P-1003", "name": "Shrink wrap", "bin": "S-03-1", "cases": 16 },
+    { "type": "carton", "sku": "C-2042", "name": "Barcode labels", "bin": "S-03-2", "units": 30 },
+    { "type": "drum", "sku": "D-9002", "name": "Not in this binary yet", "bin": "S-99-9" }
+  ]
+}

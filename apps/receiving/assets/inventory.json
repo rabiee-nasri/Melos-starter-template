@@ -1,0 +1,8 @@
+{
+  "items": [
+    { "type": "pallet", "sku": "P-1001", "name": "Copier paper A4", "bin": "R-01-1", "cases": 40 },
+    { "type": "carton", "sku": "C-2040", "name": "Toner cartridges", "bin": "R-01-2", "units": 12 },
+    { "type": "loose", "sku": "L-3300", "name": "Label rolls", "bin": "R-02-1", "quantity": 75 },
+    { "type": "drum", "sku": "D-9000", "name": "Not in this binary yet", "bin": "R-09-9" }
+  ]
+}

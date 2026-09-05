@@ -1,0 +1,8 @@
+{
+  "items": [
+    { "type": "carton", "sku": "C-2041", "name": "Ballpoint pens, black", "bin": "A-04-2", "units": 200 },
+    { "type": "loose", "sku": "L-3310", "name": "Packing tape", "bin": "A-05-1", "quantity": 36 },
+    { "type": "pallet", "sku": "P-1002", "name": "Bottled water 500ml", "bin": "A-11-1", "cases": 24 },
+    { "type": "drum", "sku": "D-9001", "name": "Not in this binary yet", "bin": "A-99-9" }
+  ]
+}
