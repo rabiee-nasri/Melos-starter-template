@@ -1,0 +1,17 @@
+name: core
+description: Offline-first data layer. Interfaces in, repositories out.
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # No components here. The data layer never renders anything.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
