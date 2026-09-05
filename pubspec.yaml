@@ -1,0 +1,33 @@
+# Workspace root. Every member below opts in with `resolution: workspace`,
+# so the whole repository resolves against this one pubspec.lock.
+name: workspace
+publish_to: none
+
+environment:
+  sdk: ^3.13.0
+
+workspace:
+  - apps/receiving
+  - apps/picking
+  - apps/stocktake
+  - packages/core
+  - packages/components
+
+dev_dependencies:
+  melos: ^8.6.0
+
+# Melos 7 and later read their configuration from here, not from melos.yaml.
+melos:
+  ide:
+    intellij:
+      enabled: false
+  scripts:
+    analyze:
+      description: Analyze every package. Dependency rule violations fail here.
+      run: melos exec -- flutter analyze --fatal-infos
+    test:
+      description: Run the tests of every package that has a test directory.
+      run: melos exec --dir-exists=test -- flutter test
+    format:
+      description: Check formatting across the workspace.
+      run: dart format --set-exit-if-changed .

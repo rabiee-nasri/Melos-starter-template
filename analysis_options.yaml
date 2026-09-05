@@ -1,0 +1,16 @@
+# Included by every package in the workspace.
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    # An import with no matching pubspec entry fails the build,
+    # instead of scrolling past as a style hint.
+    depend_on_referenced_packages: error
+    # Reaching into another package's src/ fails the build too:
+    # packages talk through their public surface only.
+    implementation_imports: error
+
+linter:
+  rules:
+    - depend_on_referenced_packages
+    - implementation_imports

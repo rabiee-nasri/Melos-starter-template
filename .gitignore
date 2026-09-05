@@ -1,0 +1,32 @@
+# Dart / Flutter
+.dart_tool/
+.packages
+build/
+pubspec.lock
+!/pubspec.lock
+*.iml
+.idea/
+.vscode/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android
+apps/*/android/.gradle/
+apps/*/android/local.properties
+apps/*/android/**/GeneratedPluginRegistrant.java
+apps/*/android/app/.cxx/
+
+# iOS
+apps/*/ios/Pods/
+apps/*/ios/.symlinks/
+apps/*/ios/Flutter/Flutter.podspec
+apps/*/ios/Flutter/ephemeral/
+apps/*/ios/Flutter/Generated.xcconfig
+apps/*/ios/Flutter/flutter_export_environment.sh
+apps/*/ios/Runner/GeneratedPluginRegistrant.*
+apps/*/ios/**/xcuserdata/
+apps/*/ios/**/*.mode1v3
+apps/*/ios/**/*.pbxuser
+
+# macOS
+.DS_Store
